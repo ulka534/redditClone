@@ -1,0 +1,40 @@
+.post{
+    border: 15px solid #ccc;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    padding-top:50px;
+    width:800px;
+    margin: 100px;
+}
+
+.btnCommments{
+    border-radius: 2px solid;
+    color: #878A8C;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.readBtn{
+    margin-bottom: 5px;
+}
+
+.post-title{
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.posturl{    
+    color: black;
+}
+
+.subreddit-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.post-text{
+    margin-top: 10px;
+}
