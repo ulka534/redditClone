@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <hr />
+        <div class="col-md-9">
+            <div class="row post">
+                <div class="col-md-11">
+                    <span>
+                        <span class="subreddit-text"><a class="post-url" href="">{{postSubreddit}}</a></span>
+                        <span> . Posted
+                            by
+                            <a class="username" href="">{{postAuthor}}</a>
+                        </span>
+                    </span>
+                    <hr />
+                    <a routerLink="post.url" class="post-title">{{postName}}</a>
+                    <div>
+                        <p class="post-text">{{postNum_comments}} Comments</p>
+                    </div>
+                    <div style="margin-top: 60px;" *ngFor="let comment of data">
+                        <div class="comment">
+                            <div class="username">
+                                <a routerLink="">{{comment.name}}</a>
+                            </div>
+                            <div>
+                                <p>{{comment.num_comments}}</p>
+                            </div>
+                            <b>{{comment.body}}</b>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -7,12 +7,14 @@ import { HeaderComponent } from './header/header.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PostsComponent } from './posts/posts.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PostsComponent
+    PostsComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
